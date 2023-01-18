@@ -7,16 +7,18 @@ body {
 }
 
 .header-container {
-    min-width: 1152px;
+    min-width: 850px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
-
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .header-logo {
-    margin-left: 120px;
+    margin-left: 90px;
 }
 
 .header-logo-link {
@@ -101,7 +103,7 @@ body {
 }
 
 .header-social-button-item:last-child {
-    margin-right: 120px;
+    margin-right: 90px;
 }
 
 .header-social-button-item-link {
@@ -113,12 +115,15 @@ body {
 }
 
 .slider-main-container {
-    min-width: 1152px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #E5E5E5;
+    margin: 0 auto;
     margin-top: 25px;
+   
+    
 }
 
 .slider-main-left-text1 {
@@ -133,7 +138,7 @@ body {
     margin: 0;
     margin-top: 130px;
     width: 30%;
-    margin-left: 220px;
+    margin-left: 300px;
 }
 
 .cup {
@@ -141,7 +146,7 @@ body {
     margin: 0;
     padding: 0;
     top: 60px;
-    right: 170px;
+    right: 150px;
 
 }
 
@@ -159,13 +164,54 @@ body {
 }
 
 .slider-main-right {
-    margin-right: 200px;
+    margin-right: 220px;
 }
 
 .last-post-container {
-    min-width: 966px;
+    width: 966px;  
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding: 0;
+    border: #E2E2E2 3px solid ;
+    border-radius: 3px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.text-header{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2D3748;
+    display: block;
+    margin-bottom: 30px;
+}
+.text-post{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #718096;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+
+.last-post-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-post-text{
+   margin-top: 10px;
+   margin-left: 72px; 
+   margin-right: 107px;
+}
+.post-img{
+   
+   
+}
+.last-post-img-link{
+    display: block;
 }
